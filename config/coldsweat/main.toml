@@ -1,0 +1,69 @@
+#Overrides all other config options for easy difficulty management
+#This value is changed by the in-game config. It does nothing otherwise.
+#Range: 0 ~ 4
+Difficulty = 2
+
+["Item settings"]
+	#Fire Resistance blocks all hot temperatures
+	"Fire Resistance Immunity" = true
+	#Ice Resistance blocks all cold temperatures
+	"Ice Resistance Immunity" = true
+	#Thermometer item is required to see world temperature
+	"Require Thermometer" = true
+
+["Misc temperature-related things"]
+	#Sets whether damage scales with difficulty
+	"Damage Scaling" = true
+	#When set to true, players cannot sleep if they are cold or hot enough to die
+	"Prevent Sleep When in Danger" = true
+
+["Details about how the player is affected by temperature"]
+	#Defines the minimum habitable temperature
+	#Range: -Infinity ~ Infinity
+	"Minimum Habitable Temperature" = 0.42857142857142855
+	#Defines the maximum habitable temperature
+	#Range: -Infinity ~ Infinity
+	"Maximum Habitable Temperature" = 1.619047619047619
+	#Rate at which the player's body temperature changes (default: 1.0 (100%))
+	#Range: 0.0 ~ Infinity
+	"Rate Multiplier" = 1.0
+
+["Temperature Effects"]
+
+	["Temperature Effects".Hot]
+		#When set to true, the player's view distance will decrease when they are too hot
+		"Heatstroke Fog" = true
+
+	["Temperature Effects".Cold]
+		#When set to true, some of the player's hearts will freeze when they are too cold, preventing regeneration
+		"Freezing Hearts" = true
+		#When set to true, the player's attack knockback will be reduced when they are too cold
+		"Cold Knockback Reduction" = true
+		#When set to true, the player's movement speed will be reduced when they are too cold
+		"Cold Slowness" = true
+		#When set to true, the player's mining speed will be reduced when they are too cold
+		"Cold Mining Fatigue" = true
+
+["Grace Period Details"]
+	#Grace period length in ticks (default: 6000)
+	#Range: > 0
+	"Grace Period Length" = 6000
+	#Enables the grace period (default: true)
+	"Grace Period Enabled" = true
+
+[Hearth]
+	#How strong the hearth is (default: 0.5)
+	#Range: 0.0 ~ 1.0
+	"Hearth Strength" = 0.5
+	#List of blocks that the hearth can spread through
+	#Use this list if the hearth isn't spreading through particular blocks that it should
+	"Hearth Spread Whitelist" = ["minecraft:iron_bars", "minecraft:jungle_leaves", "minecraft:oak_leaves", "minecraft:spruce_leaves", "minecraft:dark_oak_leaves", "minecraft:acacia_leaves", "minecraft:birch_leaves", "betterendforge:lacugrove_leaves", "betterendforge:pythadendron_leaves", "betterendforge:dragon_tree_leaves", "betterendforge:tenanea_leaves", "betterendforge:lucernia_leaves", "biomesoplenty:origin_leaves", "biomesoplenty:flowering_oak_leaves", "biomesoplenty:rainbow_birch_leaves", "biomesoplenty:yellow_autumn_leaves", "biomesoplenty:orange_autumn_leaves", "biomesoplenty:maple_leaves", "biomesoplenty:fir_leaves", "biomesoplenty:redwood_leaves", "biomesoplenty:white_cherry_leaves", "biomesoplenty:pink_cherry_leaves", "biomesoplenty:mahogany_leaves", "biomesoplenty:jacaranda_leaves", "biomesoplenty:palm_leaves", "biomesoplenty:willow_leaves", "biomesoplenty:dead_leaves", "biomesoplenty:magic_leaves", "biomesoplenty:umbran_leaves", "biomesoplenty:hellbark_leaves", "theabyss:tantra_leaves", "theabyss:jungle_leaves", "theabyss:blaru_leaves", "theabyss:ruma_leave_2", "theabyss:ruma_leave_5", "theabyss:lorka_leaves", "theabyss:ruma_leave_3", "theabyss:ruma_leave_4", "theabyss:rotten_fungal_leave", "theabyss:roggen_leave", "theabyss:bog_shroom_leave", "theabyss:ruma_leave", "theabyss:sal_shroom_leave", "good_nights_sleep:dream_leaves", "good_nights_sleep:candy_leaves", "good_nights_sleep:diamond_leaves", "projectvibrantjourneys:fir_leaves", "projectvibrantjourneys:pine_leaves", "projectvibrantjourneys:palm_leaves", "projectvibrantjourneys:willow_leaves", "projectvibrantjourneys:mangrove_leaves", "projectvibrantjourneys:redwood_leaves", "projectvibrantjourneys:baobab_leaves", "projectvibrantjourneys:aspen_leaves", "projectvibrantjourneys:red_maple_leaves", "projectvibrantjourneys:orange_maple_leaves", "projectvibrantjourneys:purple_maple_leaves", "projectvibrantjourneys:cottonwood_leaves", "projectvibrantjourneys:juniper_leaves", "projectvibrantjourneys:berried_juniper_leaves", "projectvibrantjourneys:pink_sakura_leaves", "projectvibrantjourneys:white_sakura_leaves", "projectvibrantjourneys:tamarack_leaves", "projectvibrantjourneys:joshua_leaves", "upgrade_aquatic:river_leaves", "outer_end:azure_leaves", "tconstruct:earth_slime_leaves", "tconstruct:sky_slime_leaves", "tconstruct:ender_slime_leaves", "quark:blue_blossom_leaves", "quark:lavender_blossom_leaves", "quark:orange_blossom_leaves", "quark:pink_blossom_leaves", "quark:yellow_blossom_leaves", "quark:red_blossom_leaves", "watersource:coconut_tree_leaf"]
+	#List of blocks that the hearth cannot spread through
+	#Use this list if the hearth is spreading through particular blocks that it shouldn't
+	"Hearth Spread Blacklist" = []
+
+["Cold Soul Fire"]
+	#Converts damage dealt by Soul Fire to cold damage (default: true)
+	#Does not affect the block's temperature
+	"Cold Soul Fire" = true
+

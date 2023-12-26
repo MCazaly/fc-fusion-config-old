@@ -1,0 +1,12 @@
+
+[Common]
+	#The max ingot count every pile.
+	#Range: > 1
+	MaxCount = 64
+	#Config what ingot can be placed.(Defined by item id, priority over tag.)
+	Item = ["creat:andesite_alloy", "878787", "create:polished_rose_quartz", "15685206", "astralsorcery:starmetal_ingot", "4457", "extrabotany:aerialite", "491169"]
+	#Config what ingot can be placed.(Defined by item tag.)
+	Tags = ["forge:ingots/iron", "16777215", "forge:ingots/gold", "16768512", "forge:ingots/netherite", "4473153", "forge:ingots/copper", "12542976", "forge:ingots/tin", "10470592", "forge:ingots/lead", "5660024", "forge:ingots/silver", "12372687", "forge:ingots/nickel", "12824692", "forge:ingots/bronze", "13994795", "forge:ingots/electrum", "15128436", "forge:ingots/invar", "10596262", "forge:ingots/constantan", "14128461", "forge:ingots/signalum", "15480326", "forge:ingots/lumium", "15850096", "forge:ingots/enderium", "1409424", "forge:ingots/osmium", "10202052", "forge:ingots/refined_obsidian", "6441607", "forge:ingots/steel", "6710886", "forge:ingots/refined_glowstone", "16769127", "forge:ingots/uranium", "10809765", "forge:ingots/ardite", "9711635", "forge:ingots/cobalt", "2324189", "forge:ingots/knight_slime", "12807921", "forge:ingots/manyullyn", "7422380", "forge:ingots/pig_iron", "8353143", "forge:ingots/aluminum", "13560049", "forge:ingots/zinc", "12107145", "forge:ingots/brass", "12964214", "forge:ingots/elementium", "15817902", "forge:ingots/manasteel", "3377663", "forge:ingots/terrasteel", "5503232", "forge:ingots/compressed_iron", "6513507", "forge:ingots/hellforged", "10148301"]
+	#Ture to allow any items can putting down.
+	CanAllPut = true
+

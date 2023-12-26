@@ -1,0 +1,16 @@
+
+[general]
+	#A new enchantment for jumping multiple times. What more could you want in life?
+	"Air Hop" = true
+
+[air_hop]
+	#Spawn a small particle cloud at the players feet on every air hop.
+	"Spawn Particle Cloud" = true
+	#Play a funny sound effect whenever the player hops in mid-air.
+	"Play Hop Sound" = true
+	#Chance the player's boots will be damaged by an air hop.
+	#Range: 0.0 ~ 1.0
+	"Boots Damage Chance" = 0.4
+	#Take normal fall damage when hitting the ground after air hopping.
+	"Inflict Fall Damage" = false
+

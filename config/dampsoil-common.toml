@@ -1,0 +1,34 @@
+
+[general]
+	#If enabled, crops will die on dry farmland.
+	cropsDie = true
+	#Determines the effective radius of a water block to moisturize nearby farmland.
+	#Range: 1 ~ 7
+	waterRange = 1
+	#Determines the chance for a crop to grow. A value of 4 would equal a 1/4 chance for the crop to grow when it is ticked.
+	#Range: 1 ~ 10
+	growthRate = 7
+	#Determines the chance for bone meal to further grow a crop. A value of 4 would equal a 1/4 chance for using bone meal to work.
+	#Range: 1 ~ 10
+	boneMealEfficiency = 3
+	#Determines how fast farmland dries up with no water source/sprinkler nearby. A value of 0.05 equals a 5% for farmland to lose a bit of moisture when it is randomly ticked.
+	#Range: 0.01 ~ 1.0
+	farmlandDryingRate = 0.05
+	#Determines how long the sprinkler is active after having been activated (in seconds).
+	#Range: 0 ~ 30
+	sprinklerActivationTime = 15
+	#Determines the effective radius of the sprinkler for moisturizing nearby farmland.
+	#Range: 1 ~ 7
+	sprinklerRadius = 2
+	#Determines the effective radius of the netherite sprinkler for moisturizing nearby farmland.
+	#Range: 1 ~ 7
+	netheriteSprinklerRadius = 4
+	#If enabled, the sprinklers will interact with entities in the world in various ways (e.g. hurting water sensitive mobs and extinguishing burning mobs.)
+	mobInteractions = true
+	#If enabled, wet farmland can not be trampled into dirt by mobs or players.
+	disableTrampling = true
+
+[compat]
+	#Whether sprinklers need to be hooked up with fluid pipes to function.
+	requirePiping = false
+

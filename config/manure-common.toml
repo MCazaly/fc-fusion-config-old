@@ -1,0 +1,6 @@
+
+[General]
+	#How long the delay in ticks is in between loaded animals dropping manure. 20 ticks = 1 second. By default twice a day, every 12000 ticks.
+	#Range: 0 ~ 10000000
+	manureDropDelayTicks = 12000
+

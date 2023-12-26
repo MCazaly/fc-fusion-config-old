@@ -1,0 +1,6 @@
+
+#General mod settings
+[general]
+	#Mobs enhanced by zombie awareness
+	enhancedMobs = ["earthmobsmod:bouldering_zombie", "born_in_chaos_v1:decaying_zombie", "born_in_chaos_v1:decaying_zombie_n", "theabyss:infected_zombie", "earthmobsmod:lobber_zombie", "theabyss:mud_zombie", "mutantbeasts:mutant_zombie", "theabyss:shattered_zombie", "born_in_chaos_v1:zombiesina_barrel", "born_in_chaos_v1:zombieswith_door", "born_in_chaos_v1:zombieswith_door_n", "minecraft:zombie_horse", "minecraft:zombie_villager", "minecraft:zombie", "minecraft:zombie_horse", "minecraft:zombie_villager", "minecraft:zombified_piglin", "minecraft:husk", "minecraft:drowned"]
+
