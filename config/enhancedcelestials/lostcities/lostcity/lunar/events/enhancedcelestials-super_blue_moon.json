@@ -38,6 +38,6 @@
     "type": "enhancedcelestials:default"
   },
   "minNumberOfNightsBetween": 20,
-  "chance": 0.01,
+  "chance": 0.00,
   "type": "enhancedcelestials:blue_moon"
 }

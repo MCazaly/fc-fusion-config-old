@@ -41,7 +41,7 @@
     "mob_growth": true,
     "painting": true,
     "harvest_tool_new_line": false,
-    "trapped_chest": true
+    "trapped_chest": false
   },
   "waila": {
     "show_registry": false,

@@ -47,7 +47,7 @@
 	freezeOnAngel = false
 	#Determines the range the angels will look for players within, personally, I'd stay under 100
 	#Range: 1 ~ 100
-	stalkRange = 65
+	stalkRange = 75
 	#Determines the angels move speed
 	#Range: 0.1 ~ 1.7976931348623157E308
 	angelMovementSpeed = 0.5
@@ -75,11 +75,11 @@
 
 [block]
 	#This config option toggles whether angels can spawn from Statues/Plinths when they receive a redstone signal
-	spawnFromBlocks = false
+	spawnFromBlocks = true
 
 [misc]
 	#Toggle whether santa hats are shown at Xmas
-	showSantaHatsAtXmas = false
+	showSantaHatsAtXmas = true
 	#Toggle certain angel models (Only applies to Entity)
 	allowedAngelTypes = ["DISASTER_MC", "DOCTOR", "ED", "ED_ANGEL_CHILD", "A_DIZZLE", "DYING", "VILLAGER", "VIO_1", "VIO_2", "SPARE_TIME"]
 	#Toggle certain angel variants (Only applies to Entity)

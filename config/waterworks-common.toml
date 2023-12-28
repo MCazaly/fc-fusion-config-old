@@ -90,7 +90,7 @@
 #No comment
 [recipes]
 	#If true, the Rain Rocket has a recipe.
-	recipeRainRocket = true
+	recipeRainRocket = false
 	#If true, the Anti Rain Rocket has a recipe.
-	recipeAntiRainRocket = true
+	recipeAntiRainRocket = false
 

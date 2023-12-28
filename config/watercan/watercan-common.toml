@@ -36,19 +36,19 @@
 	moisturizeFarmland = true
 	#Set to false to prevent the watercan from spawning flowers on grass.
 	#Default: true
-	spawnFlowers = true
+	spawnFlowers = false
 	#Set to false to prevent the watercan from growing crops / growables.
 	#Default: true
-	growCrops = true
+	growCrops = false
 	#Set to false to prevent the watercan from growing saplings.
 	#Default: true
-	growSaplings = true
+	growSaplings = false
 	#Set to false to prevent the watercan from spreading grass.
 	#Default: true
-	spreadGrass = true
+	spreadGrass = false
 	#Set to false to prevent the watercan from spreading mycelium.
 	#Default: true
-	spreadMycelium = true
+	spreadMycelium = false
 
 [stone_watercan]
 	#If true, the watercan can be used in a dispenser.
@@ -87,19 +87,19 @@
 	moisturizeFarmland = true
 	#Set to false to prevent the watercan from spawning flowers on grass.
 	#Default: true
-	spawnFlowers = true
+	spawnFlowers = false
 	#Set to false to prevent the watercan from growing crops / growables.
 	#Default: true
-	growCrops = true
+	growCrops = false
 	#Set to false to prevent the watercan from growing saplings.
 	#Default: true
-	growSaplings = true
+	growSaplings = false
 	#Set to false to prevent the watercan from spreading grass.
 	#Default: true
-	spreadGrass = true
+	spreadGrass = false
 	#Set to false to prevent the watercan from spreading mycelium.
 	#Default: true
-	spreadMycelium = true
+	spreadMycelium = false
 
 [iron_watercan]
 	#If true, the watercan can be used in a dispenser.
@@ -138,19 +138,19 @@
 	moisturizeFarmland = true
 	#Set to false to prevent the watercan from spawning flowers on grass.
 	#Default: true
-	spawnFlowers = true
+	spawnFlowers = false
 	#Set to false to prevent the watercan from growing crops / growables.
 	#Default: true
-	growCrops = true
+	growCrops = false
 	#Set to false to prevent the watercan from growing saplings.
 	#Default: true
-	growSaplings = true
+	growSaplings = false
 	#Set to false to prevent the watercan from spreading grass.
 	#Default: true
-	spreadGrass = true
+	spreadGrass = false
 	#Set to false to prevent the watercan from spreading mycelium.
 	#Default: true
-	spreadMycelium = true
+	spreadMycelium = false
 
 [gold_watercan]
 	#If true, the watercan can be used in a dispenser.
@@ -189,19 +189,19 @@
 	moisturizeFarmland = true
 	#Set to false to prevent the watercan from spawning flowers on grass.
 	#Default: true
-	spawnFlowers = true
+	spawnFlowers = false
 	#Set to false to prevent the watercan from growing crops / growables.
 	#Default: true
-	growCrops = true
+	growCrops = false
 	#Set to false to prevent the watercan from growing saplings.
 	#Default: true
-	growSaplings = true
+	growSaplings = false
 	#Set to false to prevent the watercan from spreading grass.
 	#Default: true
-	spreadGrass = true
+	spreadGrass = false
 	#Set to false to prevent the watercan from spreading mycelium.
 	#Default: true
-	spreadMycelium = true
+	spreadMycelium = false
 
 [diamond_watercan]
 	#If true, the watercan can be used in a dispenser.
@@ -240,17 +240,17 @@
 	moisturizeFarmland = true
 	#Set to false to prevent the watercan from spawning flowers on grass.
 	#Default: true
-	spawnFlowers = true
+	spawnFlowers = false
 	#Set to false to prevent the watercan from growing crops / growables.
 	#Default: true
-	growCrops = true
+	growCrops = false
 	#Set to false to prevent the watercan from growing saplings.
 	#Default: true
-	growSaplings = true
+	growSaplings = false
 	#Set to false to prevent the watercan from spreading grass.
 	#Default: true
-	spreadGrass = true
+	spreadGrass = false
 	#Set to false to prevent the watercan from spreading mycelium.
 	#Default: true
-	spreadMycelium = true
+	spreadMycelium = false
 

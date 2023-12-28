@@ -37,7 +37,7 @@
     "type": "enhancedcelestials:default"
   },
   "minNumberOfNightsBetween": 4,
-  "chance": 0.035,
+  "chance": 0.00,
   "validMoonPhases": [
     0,
     1,
