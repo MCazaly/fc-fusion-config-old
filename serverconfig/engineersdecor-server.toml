@@ -35,7 +35,7 @@
 		#Disable treated wood window, etc.
 		without_windows = false
 		#Disable light sources
-		without_light_sources = false
+		without_light_sources = true
 		#Disable ladders
 		without_ladders = false
 		#Disable possibility to sit on stools and chairs.
@@ -94,7 +94,7 @@
 	[server.tweaks]
 		#Defines, in percent, how fast the lab furnace smelts compared to a vanilla furnace. 100% means vanilla furnace speed, 150% means the lab furnace is faster. The value can be changed on-the-fly for tuning.
 		#Range: 50 ~ 800
-		furnace_smelting_speed_percent = 130
+		furnace_smelting_speed_percent = 125
 		#Defines, in percent, how fuel efficient the lab furnace is, compared to a vanilla furnace. 100% means vanilla furnace consumiton, 200% means the lab furnace needs about half the fuel of a vanilla furnace, The value can be changed on-the-fly for tuning.
 		#Range: 50 ~ 400
 		furnace_fuel_efficiency_percent = 100
@@ -138,7 +138,7 @@
 		#Range: 10 ~ 100
 		block_breaker_min_breaking_time = 15
 		#Defines if the Small Block Breaker does not work without RF power.
-		block_breaker_requires_power = false
+		block_breaker_requires_power = true
 		#Defines how much RF power the Small Tree Cutter requires to magnificently increase the processing speed. The config value can be changed on-the-fly for tuning.
 		#Range: 4 ~ 1024
 		tree_cutter_energy_consumption = 64
@@ -146,7 +146,7 @@
 		#Range: 10 ~ 240
 		tree_cutter_cutting_time_needed = 60
 		#Defines if the Small Tree Cutter does not work without RF power.
-		tree_cutter_requires_power = false
+		tree_cutter_requires_power = true
 		#Defines how much time the Small Milking Machine needs work. Note this is a permanent standby power, not only when the device does something. Use zero to disable energy dependency and energy handling of the machine. The config value can be changed on-the-fly for tuning.
 		#Range: 0 ~ 1024
 		milking_machine_energy_consumption = 0

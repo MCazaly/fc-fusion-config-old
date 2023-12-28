@@ -6,7 +6,7 @@
 	#Range: 0 ~ 6
 	JumpscareHurtLevel = 1
 	#While set to true, the eyes entity will ignore the artificial light level and will jumpscare even if it's lit. Daylight will still disable it's AI.
-	EyesCanAttackWhileLit = true
+	EyesCanAttackWhileLit = false
 	#The speed at which the eyes move, when not aggressive.
 	#Range: 0.0 ~ 1.7976931348623157E308
 	SpeedNoAggro = 0.10000000149011612

@@ -2,7 +2,7 @@
 #Range: > 0
 tankCapacity = 100000
 #When set to true, all wells in the chunk will stop working while there's more than 1.
-onlyOnePerChunk = false
+onlyOnePerChunk = true
 #Handle what fluids wells collect based on biome, and how much
 dataList = ["{}"]
 

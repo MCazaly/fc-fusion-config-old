@@ -14,7 +14,7 @@
 	dropDurabilityLoss = 0.0
 	#List of items to always keep, drop, or destroy, regardless of other settings
 	#Format: modid:item;[keep/drop/destroy]
-	itemSettings = []
+	itemSettings = ["antiqueatlas:antique_atlas;keep", "antiqueatlas:empty_antique_atlas;keep"]
 	#Set to true to limit durability loss so that items do not break from death penalties
 	limitDurabilityLoss = false
 	#Time (in seconds) that dropped items will take to despawn, -1 to disable despawning
@@ -285,5 +285,5 @@
 	respawnItems = []
 	#List of mobs to spawn on player death
 	#Format: modid:name
-	mobSpawnsOnDeath = []
+	mobSpawnsOnDeath = ["iceandfire:ghost"]
 

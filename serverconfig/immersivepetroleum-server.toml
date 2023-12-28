@@ -2,13 +2,13 @@
 [Extraction]
 	#The chance that a chunk contains a fluid reservoir
 	#Default: 0.5
-	reservoir_chance = 0.5
+	reservoir_chance = 0.1
 	#The Flux the Pumpjack requires each tick to pump
 	#Default: 1024
 	pumpjack_consumption = 1024
 	#The amount of mB of oil a Pumpjack extracts per tick
 	#Default: 15
-	pumpjack_speed = 15
+	pumpjack_speed = 12
 	#Require a pumpjack to have pipes built down to Bedrock
 	#Default: false
 	req_pipes = false

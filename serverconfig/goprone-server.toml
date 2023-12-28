@@ -15,5 +15,4 @@
 #Other options not related to when you can go prone
 [other]
 	#Can players jump while prone
-	isJumpingAllowed = true
-
+	isJumpingAllowed = false

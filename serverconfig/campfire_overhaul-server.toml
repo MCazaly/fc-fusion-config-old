@@ -4,7 +4,7 @@
 	campfireCreatedUnlit = true
 	#How long of a burn time should campfire have by default (in ticks, ticks = 1/20 of second):
 	#Range: > 0
-	campfireDefaultLifeTime = 2000
+	campfireDefaultLifeTime = 24000
 	#Max limit of burn time for a normal campfire (in ticks, ticks = 1/20 of second):
 	#Range: > 0
 	campfireMaxLifeTime = 2147483647
@@ -18,12 +18,12 @@
 	soulCampfireCreatedUnlit = false
 	#How long of a burn time should soul campfire have by default (in ticks, ticks = 1/20 of second):
 	#Range: > 0
-	soulCampfireDefaultLifeTime = 4000
+	soulCampfireDefaultLifeTime = 72000
 	#Max limit of burn time for a soul campfire (in ticks, ticks = 1/20 of second):
 	#Range: > 0
 	soulCampfireMaxLifeTime = 2147483647
 	#Should soul campfire burn indefinitely? Overrides default life time
-	soulCampfireInfiniteLifeTime = true
+	soulCampfireInfiniteLifeTime = false
 	#Should soul campfire break instead of extinguishing?
 	soulCampfireDestroyedOnBurnout = false
 
@@ -38,7 +38,7 @@
 	#Range: 0.0 ~ 1.0
 	flintIgniteChance = 0.33
 	#Enable/disable infinite life time for indirectly placed campfires (e.g. worldgen, other mods mechanics).
-	worldgenCampfiresInfinite = true
+	worldgenCampfiresInfinite = false
 	#Enable/disable ability to make campfires infinite with items.
 	makingEternalCampfires = true
 	#Item that can make campfires infinite.
