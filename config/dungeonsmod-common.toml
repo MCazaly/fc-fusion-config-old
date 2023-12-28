@@ -3,7 +3,7 @@
 [general]
 	#Should players leave a ghost when they die? 0 to disable, 1 to always, 100/positiveValues chance
 	#Range: > 0
-	"Ghost Players" = 20
+	"Ghost Players" = 33
 
 [bosses]
 

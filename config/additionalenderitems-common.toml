@@ -18,7 +18,7 @@
 [entities]
 	#Sets the base health of the Ender Phantom
 	#Range: 1.0 ~ 1.7976931348623157E308
-	ender_phantom_base_health = 40.0
+	ender_phantom_base_health = 60.0
 	#Sets the base damage of the Ender Phantom (The normal difficulty damage)
 	#Range: 0.0 ~ 1.7976931348623157E308
 	ender_phantom_base_damage = 8.0

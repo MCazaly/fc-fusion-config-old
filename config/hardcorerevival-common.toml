@@ -4,20 +4,20 @@
 	glowOnKnockout = true
 	#The time in ticks in which a player can still be rescued from death. Set to 0 to disable the timer.
 	#Range: > 0
-	ticksUntilDeath = 2400
+	ticksUntilDeath = 72000
 	#If true, the timer until death continues even if the player logs out.
-	continueTimerWhileOffline = false
+	continueTimerWhileOffline = true
 
 [rescue]
 	#The distance at which a player can rescue another.
 	#Range: 0.0 ~ 3.4028234663852886E38
-	rescueDistance = 5.0
+	rescueDistance = 10.0
 	#The time in ticks it takes to rescue a player.
 	#Range: > 0
-	rescueActionTicks = 40
+	rescueActionTicks = 60
 	#The amount of health to respawn with when a player was rescued, out of 20.
 	#Range: > 1
-	rescueRespawnHealth = 1
+	rescueRespawnHealth = 5
 	#The food level to respawn with when a player was rescued, out of 20.
 	#Range: > 0
 	rescueRespawnFoodLevel = 5
@@ -26,7 +26,7 @@
 
 [restrictions]
 	#If true, knocked out players are still able to punch nearby enemies.
-	allowUnarmedMelee = false
+	allowUnarmedMelee = true
 	#If true, knocked out players are still able to fire bows.
 	allowBows = false
 	#If true, knocked out players are still able to fire pistols from Mr Crayfish's Gun Mod.

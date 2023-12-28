@@ -19,7 +19,7 @@
 
 [Paint]
 	#Whether a bucket of water is required to be in the player's inventory in order to paint
-	requiresWaterBucket = true
+	requiresWaterBucket = false
 	#Whether a dye is required to be in the player's inventory in order to paint
 	requiresDye = true
 
@@ -30,11 +30,11 @@
 
 [Pump]
 	#If set to True, the redstone signal will turn the pump off instead of turning it on
-	invertedRedstoneSignal = false
+	invertedRedstoneSignal = true
 
 	[Pump.ForgeEnergy]
 		#Whether Forge Energy is required or not
-		enabled = false
+		enabled = true
 		#Maximum amount of energy that can be held
 		#Range: 0 ~ 100000
 		capacity = 10000

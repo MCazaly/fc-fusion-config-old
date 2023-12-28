@@ -7,8 +7,8 @@
 	enableBoneMealCoffeeBush = false
 	#Chance of generating wild tea bushes. Smaller value = more frequent.
 	#Range: > 0
-	teaBushChance = 20
+	teaBushChance = 10
 	#Chance of generating coffee bushes. Smaller value = more frequent.
 	#Range: > 0
-	coffeeBushChance = 2
+	coffeeBushChance = 1
 

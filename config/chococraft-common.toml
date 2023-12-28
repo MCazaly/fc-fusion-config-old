@@ -3,10 +3,10 @@
 [World]
 	#Controls the Patch Size [Default: 64]
 	#Range: > 0
-	gysahlGreenPatchSize = 64
+	gysahlGreenPatchSize = 24
 	#Controls the Patch Rarity (Generating once every X tries) [Default: 2]
 	#Range: > 1
-	gysahlGreenRarity = 2
+	gysahlGreenRarity = 4
 	#Controls the weight compared to other world gen [Default: true]
 	gysahlGreensSpawnOnlyInOverworld = true
 
@@ -14,7 +14,7 @@
 [spawning]
 	#Controls Chocobo Spawn Weight [Default: 10]
 	#Range: > 0
-	chocoboSpawnWeight = 10
+	chocoboSpawnWeight = 5
 	#Controls Chocobo Pack Size Min [Default: 1]
 	#Range: > 0
 	chocoboPackSizeMin = 1

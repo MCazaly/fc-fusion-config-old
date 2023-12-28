@@ -35,7 +35,7 @@
 		# This number controls the general size of strongholds. Bigger number = bigger strongholds.
 		# It is HIGHLY recommended to keep this an even number!
 		# Default: 16
-		"Stronghold Size" = 16
+		"Stronghold Size" = 32
 		# The rate at which cobwebs will spawn in various parts of the stronghold.
 		# Default: 0.1
 		"Cobweb Spawn Rate (NORMAL)" = 0.1
@@ -44,10 +44,10 @@
 		"Cobweb Spawn Rate (SPAWNER)" = 0.3
 		# The rate at which torches spawn throughout the stronghold.
 		# Default: 0.1
-		"Torch Spawn Rate" = 0.1
+		"Torch Spawn Rate" = 0
 		# The rate at which lanterns spawn throughout the stronghold.
 		# Default: 0.2
-		"Lantern Spawn Rate" = 0.2
+		"Lantern Spawn Rate" = 0
 
 	###########################################################################################################
 	## Options for controlling individual pieces/rooms in the stronghold.

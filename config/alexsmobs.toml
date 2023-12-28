@@ -1,7 +1,7 @@
 
 [general]
 	#Whether all players should get an Animal Dictionary when joining the world for the first time.
-	giveBookOnStartup = true
+	giveBookOnStartup = false
 	#Lava Opacity for the Lava Vision Potion.
 	#Range: 0.01 ~ 1.0
 	lavaVisionOpacity = 0.65
@@ -37,7 +37,7 @@
 	#Whether wild raccoons steal food from chests.
 	raccoonStealFromChests = true
 	#Whether fish oil gives players a special levitation effect.
-	fishOilMeme = true
+	fishOilMeme = false
 	#Whether soul vulture spawns should be restricted solely to the nether fossil structure or to whatever biome is specified in their respective biome config.
 	soulVultureSpawnOnFossil = true
 	#Whether acacia blossoms should drop from blocks tagged with #alexsmobs:drops_acacia_blossoms
@@ -78,17 +78,17 @@
 	#Range: 0.0 ~ 1.0
 	leafcutterAntBreakLeavesChance = 0.2
 	#Makes eagles teleport back to their owner if they get stuck during controlled flight. Useful for when playing with the Optifine mod, since this mod is the fault of many issues with the falconry system.
-	falconryTeleportsBack = false
+	falconryTeleportsBack = true
 	#Makes Tarantula Hawks fireproof, perfect if you also want these guys to spawn in the nether.
 	fireproofTarantulaHawk = false
 	#List of dimensions in which spawning void worms via mysterious worm items is allowed.
 	voidWormSpawnDimensions = ["minecraft:the_end"]
 	#All void worm damage is scaled to this.
 	#Range: 0.0 ~ 100.0
-	voidWormDamageModifier = 1.0
+	voidWormDamageModifier = 1.25
 	#Max Health of the void worm boss.
 	#Range: 0.0 ~ 1000000.0
-	voidWormMaxHealth = 160.0
+	voidWormMaxHealth = 250.0
 	#Whether the void worm boss is summonable or not, via the mysterious worm item.
 	voidWormSummonable = true
 	#Whether seagulls should steal food out of players' hotbar slots.
@@ -101,19 +101,19 @@
 	[general.spawning]
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		grizzlyBearSpawnWeight = 8
+		grizzlyBearSpawnWeight = 6
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		grizzlyBearSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		roadrunnerSpawnWeight = 9
+		roadrunnerSpawnWeight = 7
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		roadrunnerSpawnRolls = 1
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		boneSerpentSpawnWeight = 8
+		boneSerpentSpawnWeight = 5
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		boneSeprentSpawnRolls = 40

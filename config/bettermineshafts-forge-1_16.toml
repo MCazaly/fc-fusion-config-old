@@ -1,7 +1,7 @@
 
 ["YUNG's Better Mineshafts"]
 	# Default: .003
-	"Mineshaft Spawn Rate" = 0.003
+	"Mineshaft Spawn Rate" = 0.001
 	# The lowest a mineshaft can spawn.
 	# Default: 17
 	"Minimum y-coordinate" = 17
@@ -18,35 +18,35 @@
 		# Chance of an ore deposit being cobblestone only.
 		# Default: 50
 		#Range: 0 ~ 100
-		"Cobble Spawn Chance (Empty Deposit)" = 50
+		"Cobble Spawn Chance (Empty Deposit)" = 75
 		# Chance of an ore deposit containing coal.
 		# Default: 20
 		#Range: 0 ~ 100
-		"Coal Spawn Chance" = 20
+		"Coal Spawn Chance" = 25
 		# Chance of an ore deposit containing iron.
 		# Default: 9
 		#Range: 0 ~ 100
-		"Iron Spawn Chance" = 9
+		"Iron Spawn Chance" = 5
 		# Chance of an ore deposit containing redstone.
 		# Default: 7
 		#Range: 0 ~ 100
-		"Redstone Spawn Chance" = 7
+		"Redstone Spawn Chance" = 2
 		# Chance of an ore deposit containing gold.
 		# Default: 7
 		#Range: 0 ~ 100
-		"Gold Spawn Chance" = 7
+		"Gold Spawn Chance" = 2
 		# Chance of an ore deposit containing lapis lazuli.
 		# Default: 3
 		#Range: 0 ~ 100
-		"Lapis Spawn Chance" = 3
+		"Lapis Spawn Chance" = 2
 		# Chance of an ore deposit containing emerald.
 		# Default: 3
 		#Range: 0 ~ 100
-		"Emerald Spawn Chance" = 3
+		"Emerald Spawn Chance" = 2
 		# Chance of an ore deposit containing diamond.
 		# Default: 1
 		#Range: 0 ~ 100
-		"Diamond Spawn Chance" = 1
+		"Diamond Spawn Chance" = 0
 
 	###########################################################################################################
 	## Spawn rates for various mineshaft parts and decorations.
@@ -55,11 +55,11 @@
 		# The spawn rate for lanterns in the main shaft.
 		# Default: .0067
 		#Range: 0.0 ~ 1.0
-		"Lantern Spawn Rate" = 0.0067
+		"Lantern Spawn Rate" = 0
 		# The spawn rate for torches in small shafts.
 		# Default: .02
 		#Range: 0.0 ~ 1.0
-		"Torch Spawn Rate" = 0.02
+		"Torch Spawn Rate" = 0
 		# The spawn rate for workstation side rooms along the main shaft.
 		# Default: .025
 		#Range: 0.0 ~ 1.0
@@ -75,7 +75,7 @@
 		# The spawn rate for cobwebs.
 		# Default: .15
 		#Range: 0.0 ~ 1.0
-		"Cobweb Spawn Rate" = 0.15
+		"Cobweb Spawn Rate" = 0.2
 		# The spawn rate for minecarts holding chests in small shafts.
 		# Default: .00125
 		#Range: 0.0 ~ 1.0

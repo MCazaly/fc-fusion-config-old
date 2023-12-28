@@ -9,15 +9,15 @@
 #Wandering Trader Trades
 [Trades]
 	#Defines whether or not the Brewing Coupon is obtainable from the Wandering Trader
-	enableBrewingCoupon = true
+	enableBrewingCoupon = false
 	#Defines whether or not the Crafting Coupon is obtainable from the Wandering Trader
-	enableCraftingCoupon = true
+	enableCraftingCoupon = false
 	#Defines whether or not the Experience Coupon is obtainable from the Wandering Trader
-	enableExperienceCoupon = true
+	enableExperienceCoupon = false
 	#Defines whether or not the Furnace Coupon is obtainable from the Wandering Trader
-	enableFurnaceCoupon = true
+	enableFurnaceCoupon = false
 	#Defines whether or not the Loot Coupon is obtainable from the Wandering Trader
-	enableLootCoupon = true
+	enableLootCoupon = false
 	#Defines whether or not the Trading Coupon is obtainable from the Wandering Trader
-	enableTradingCoupon = true
+	enableTradingCoupon = false
 
